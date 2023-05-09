@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body{
+    background: black;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.timer-container{
+    background-color: yellowgreen;
+    border: 5px solid gray;
+    border-radius: 2px;
+    margin-top: 19%;
+    cursor: default;
+    user-select: none;
+}
+
+#timer-display{
+    color: white;
+    text-align: center;
+    font-size: 120px;
+    margin: 0;
+}
+
+@media(max-width:768px){
+    #timer-display{
+        font-size: 5rem;
+    }
+}
+
+@media(max-width:480px){
+    #timer-display{
+        font-size: 4rem;
+    }
+}
+
+@media(max-width:320px){
+    #timer-display{
+        font-size: 3rem;
+    }
+}
